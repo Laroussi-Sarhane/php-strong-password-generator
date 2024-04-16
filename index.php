@@ -1,6 +1,6 @@
 <?php 
+session_start();
 if(isset($_GET['password'])){
-  $session_start();
   $_SESSION ['password_utente'] = $_GET['password'];
   header('Location : ./password.php');
 }
