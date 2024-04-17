@@ -1,0 +1,8 @@
+body{
+  background-color: rgb(127, 127, 217);
+}
+.messaggio{
+  height: 70px;
+  width: 800px;
+  background-color: aqua;
+}
